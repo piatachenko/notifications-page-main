@@ -24,7 +24,7 @@ function Notification({
   const [messageText, setMessageText] = useState("");
 
   useEffect(() => {
-    fetch("/src/users.json")
+    fetch("/notifications-page-main/src/users.json")
       .then((response) => response.json())
       .then((users) => {
         users.forEach((user) => {
@@ -36,7 +36,7 @@ function Notification({
   }, [username]);
 
   useEffect(() => {
-    fetch("/src/posts.json")
+    fetch("/notifications-page-main/src/posts.json")
       .then((response) => response.json())
       .then((posts) => {
         posts.forEach((post) => {
@@ -51,7 +51,7 @@ function Notification({
   }, [target]);
 
   useEffect(() => {
-    fetch("/src/groups.json")
+    fetch("/notifications-page-main/src/groups.json")
       .then((response) => response.json())
       .then((groups) => {
         groups.forEach((group) => {
@@ -63,7 +63,7 @@ function Notification({
   }, [target]);
 
   useEffect(() => {
-    fetch("/src/messages.json")
+    fetch("/notifications-page-main/src/messages.json")
       .then((response) => response.json())
       .then((messages) => {
         messages.forEach((message) => {
@@ -84,7 +84,9 @@ function Notification({
       <a href={username} className="shrink-0">
         <img
           className="w-10 h-10 hover:cursor-pointer"
-          src={`/src/assets/images/avatar-${kebabCase(fullName)}.webp`}
+          src={`/notifications-page-main/src/assets/images/avatar-${kebabCase(
+            fullName
+          )}.webp`}
           alt="User avatar"
         ></img>
       </a>
@@ -178,7 +180,7 @@ function NotificationPage() {
   };
 
   useEffect(() => {
-    fetch("/src/notifications.json")
+    fetch("/notifications-page-main/src/notifications.json")
       .then((response) => response.json())
       .then((data) => {
         let newNotifications = [];
