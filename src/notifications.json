@@ -1,0 +1,62 @@
+[
+  {
+    "id": "123123",
+    "username": "mark34w",
+    "event": "reacted to your recent post",
+    "target": "p4343",
+    "status": "unread",
+    "time": "1m"
+  },
+  {
+    "id": "123124",
+    "username": "gray_11",
+    "event": "followed you",
+    "target": "",
+    "status": "unread",
+    "time": "5m"
+  },
+  {
+    "id": "123125",
+    "username": "jthompson",
+    "event": "has joined your group",
+    "target": "g893",
+    "status": "unread",
+    "time": "1 day"
+  },
+
+  {
+    "id": "123126",
+    "username": "rizky1",
+    "event": "sent you a private message",
+    "target": "m43259",
+    "status": "read",
+    "time": "5 days"
+  },
+
+  {
+    "id": "123127",
+    "username": "kim_smith",
+    "event": "commented on your picture",
+    "target": "p5454",
+    "status": "read",
+    "time": "1 week"
+  },
+
+  {
+    "id": "123128",
+    "username": "nathanpeterson",
+    "event": "reacted to your recent post",
+    "target": "p6868",
+    "status": "read",
+    "time": "2 weeks"
+  },
+
+  {
+    "id": "123129",
+    "username": "kim1000",
+    "event": "left the group",
+    "target": "g893",
+    "status": "read",
+    "time": "2 weeks"
+  }
+]
